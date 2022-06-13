@@ -1,0 +1,34 @@
+// .carousel_slider_item > p{
+//     padding: 10px;
+//     margin-bottom: -8px;
+// }
+
+// .carousel_slider_item > span{
+//     color: gray;
+//     font-size: 12px;
+//     margin-left: 11px;
+// }
+
+.carousel_slider_item {
+	margin-left: 10px;
+    margin-right: 10px;
+	width: 1440px;
+	>p {
+		// padding: 10px;
+		// margin-bottom: -8px;
+		    /* margin-bottom: -8px; */
+		margin-bottom: 0px;
+     	padding: 9px;
+	}
+	>span {
+		color: gray;
+		font-size: 12px;
+		margin-left: 11px;
+	}
+
+	>img{
+		width: 100%;
+	}
+}
+
+

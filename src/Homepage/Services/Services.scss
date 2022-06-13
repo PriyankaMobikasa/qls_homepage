@@ -1,0 +1,45 @@
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 13%);
+    height: 100%;
+    padding: 30px;
+}
+
+.card-content {
+    background-color: #fff;
+}
+
+.services_heading{
+    margin-top: 75px;
+}
+
+@media(max-width: 780px) and (min-width: 480px){
+    .card {
+        padding: 15px
+    }
+}
+
+@media(max-width:575px) {
+    .card {
+        height: auto;
+        margin: 20px 0 0;
+        padding: 15px;
+    }
+}
+
+
+
+
+
+.services_heading > h3 {
+    font-size: 15px;
+    color: #636363;
+    text-align: center;
+}
+// .service_boxes{
+//     display: flex;
+//     align-items: center;
+//     align-content: center;
+//     justify-content: space-evenly;
+// }
+
