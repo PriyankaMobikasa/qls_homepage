@@ -4,6 +4,7 @@ import Resources from '../Resources/Resources';
 import './Homepage.css';
 import Services from '../Services/Services';
 import MidBanner from '../MidBanner/MidBanner';
+import ProductsTab from '../ProductsTabs/ProductsTab';
 
 const Homepage = () => {
     return (
@@ -11,6 +12,7 @@ const Homepage = () => {
             <Banner />
             <Services />
             <MidBanner />
+            <ProductsTab />
             <Resources />
         </div>
     )
