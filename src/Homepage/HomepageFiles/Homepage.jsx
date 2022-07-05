@@ -1,18 +1,20 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
+// import Banner from '../Banner/Banner';
 import Resources from '../Resources/Resources';
 import './Homepage.css';
 import Services from '../Services/Services';
-import MidBanner from '../MidBanner/MidBanner';
-import ProductsTab from '../ProductsTabs/ProductsTab';
+import BannerVertical from '../BannerVartical/BannerVertical';
+// import MidBanner from '../MidBanner/MidBanner';
+// import ProductsTab from '../ProductsTabs/ProductsTab';
 
 const Homepage = () => {
     return (
         <div>
-            <Banner />
+            <BannerVertical />
+            {/* <Banner /> */}
             <Services />
-            <MidBanner />
-            <ProductsTab />
+            {/* <MidBanner /> */}
+            {/* <ProductsTab /> */}
             <Resources />
         </div>
     )

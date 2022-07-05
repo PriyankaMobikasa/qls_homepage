@@ -1,8 +1,9 @@
 .resources_section > h3 {
     color: #636363;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin-top: 40px;
+    padding-bottom: 18px;
 }
 
 .resources_section > h3 > span{
@@ -20,9 +21,9 @@
     border-radius: 50%;
     border: none;
     padding: 0;
-    width: 14px !important;
-    height: 32px !important;
-    min-width: 37px !important;
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
     line-height: 32px !important;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -42,15 +43,29 @@
     border-radius: 50%;
     border: none;
     padding: 0;
-    width: 14px !important;
-    height: 32px !important;
-    min-width: 37px !important;
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
     line-height: 32px !important;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
     cursor: pointer;
     outline: none;
+}
+
+.product_btn{
+    text-align: center;
+    width: 100%;
+    padding-top: 42px;
+}
+
+.product_btn > button{
+    background-color: rgb(100, 90, 91);
+    color: white;
+    font-size: 16px;
+    padding: 8px 24px;
+    border: none;
 }
 
 // .eAyARa {
@@ -100,3 +115,20 @@
 .kdCslO{
     display: none !important;
 }
+
+@media(max-width:500px){
+    // .resources_section{
+    //     margin-left: 5px;
+    //     margin-right: 5px;
+    // }
+    .resources_section > h3 {
+        color: #636363;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+

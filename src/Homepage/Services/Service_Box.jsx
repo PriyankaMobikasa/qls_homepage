@@ -6,6 +6,7 @@ import filter2 from '../../Assets/2 filter.jpg';
 import filter3 from '../../Assets/3 filter.jpg';
 
 const Service_Box = () => {
+  
   return (
     <div>
       <div className='service_box'>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import banner from '../../Assets/AdobeStock_184520919.jpeg';
-import './Banner.scss';
+import './bannerVertical.scss';
 import Button from 'react-bootstrap/Button';
 import scroll from '../../Assets/Scroll Indicator.png';
 import btn_arrow from '../../Assets/get-started-arrow.svg';
@@ -14,8 +14,10 @@ const Banner = () => {
     const firstItemRef = useRef(null);
     return (
         <div className='container-fluid p-0'>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <div className='slider'>
                 <div className='slider_slide'>
+                
                     <Carousel>
                         <Carousel.Item>
                             <img
@@ -109,6 +111,7 @@ const Banner = () => {
                         </Carousel.Item> */}
 
                     </Carousel>
+                    </div>
 
                 </div>
             </div>
